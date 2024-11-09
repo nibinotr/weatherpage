@@ -1,0 +1,60 @@
+/* src/App.css */
+
+/* Default styles for light mode */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Light text */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff; /* Light background for the app */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app.dark {
+  background-color: #121212; /* Dark background */
+  color: white;
+}
+
+.app.light {
+  background-color: #ffffff; /* Light background */
+  color: black;
+}
+
+/* Center the container and text */
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Dark Mode Specific Button Styling */
+button:hover {
+  background-color: #45a049;
+}
